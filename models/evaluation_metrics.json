@@ -1,0 +1,90 @@
+{
+    "best_model_name": "Logistic Regression",
+    "feature_columns": [
+        "MinTemp",
+        "MaxTemp",
+        "Rainfall",
+        "WindGustSpeed",
+        "WindSpeed9am",
+        "WindSpeed3pm",
+        "Humidity9am",
+        "Humidity3pm",
+        "Pressure9am",
+        "Pressure3pm",
+        "Cloud9am",
+        "Cloud3pm",
+        "Temp9am",
+        "Temp3pm",
+        "RainToday"
+    ],
+    "models_comparison": {
+        "Logistic Regression": {
+            "Accuracy": 83.75,
+            "Precision": 84.78,
+            "Recall": 85.43,
+            "F1_Score": 85.1,
+            "ROC_AUC": 92.14,
+            "Confusion_Matrix": [
+                [
+                    448,
+                    100
+                ],
+                [
+                    95,
+                    557
+                ]
+            ]
+        },
+        "Decision Tree": {
+            "Accuracy": 79.5,
+            "Precision": 80.76,
+            "Recall": 81.75,
+            "F1_Score": 81.25,
+            "ROC_AUC": 84.98,
+            "Confusion_Matrix": [
+                [
+                    421,
+                    127
+                ],
+                [
+                    119,
+                    533
+                ]
+            ]
+        },
+        "Random Forest": {
+            "Accuracy": 82.33,
+            "Precision": 83.13,
+            "Recall": 84.66,
+            "F1_Score": 83.89,
+            "ROC_AUC": 90.74,
+            "Confusion_Matrix": [
+                [
+                    436,
+                    112
+                ],
+                [
+                    100,
+                    552
+                ]
+            ]
+        },
+        "Gradient Boosting": {
+            "Accuracy": 83.33,
+            "Precision": 84.24,
+            "Recall": 85.28,
+            "F1_Score": 84.76,
+            "ROC_AUC": 91.2,
+            "Confusion_Matrix": [
+                [
+                    444,
+                    104
+                ],
+                [
+                    96,
+                    556
+                ]
+            ]
+        }
+    }
+}
